@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { LandingpageRoutingModule } from './landingpage-routing.module';
 import { WebmainComponent } from './components/webmain/webmain.component';
+import { RegistroComponent } from './components/registro/registro.component';
 
 
 @NgModule({
   declarations: [
-    WebmainComponent
+    WebmainComponent,
+    RegistroComponent
   ],
   imports: [
     CommonModule,

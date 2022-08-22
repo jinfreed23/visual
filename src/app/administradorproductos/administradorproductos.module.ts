@@ -2,14 +2,18 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { AdministradorproductosRoutingModule } from './administradorproductos-routing.module';
-import { AlmacenComponent } from './components/almacen/almacen.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { InventarioComponent } from './components/inventario/inventario.component';
+import { ReportesComponent } from './components/reportes/reportes.component';
+import { TableroControlComponent } from './components/tablero-control/tablero-control.component';
 
 
 @NgModule({
   declarations: [
-    AlmacenComponent,
-    DashboardComponent
+    DashboardComponent,
+    InventarioComponent,
+    ReportesComponent,
+    TableroControlComponent
   ],
   imports: [
     CommonModule,
